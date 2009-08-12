@@ -22,7 +22,7 @@ PKG_CHECK_MODULES([STATUS],
                   [dbus-glib-1                  dnl
                    clutter-x11-1.0 >= 1.0.0     dnl
                    libmissioncontrol            dnl
-                   mojito-client >= 0.20.0      dnl
+                   mojito-client >= 0.20        dnl
                    nbtk-1.0])
 
 AC_ARG_ENABLE([cache],
