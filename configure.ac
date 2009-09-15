@@ -23,7 +23,7 @@ PKG_CHECK_MODULES([STATUS],
                    clutter-x11-1.0 >= 1.0.0     dnl
                    libmissioncontrol            dnl
                    mojito-client >= 0.20.1      dnl
-                   nbtk-1.0])
+                   nbtk-1.2])
 
 AC_ARG_ENABLE([cache],
               [AC_HELP_STRING([--enable-cache],
