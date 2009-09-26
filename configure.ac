@@ -21,8 +21,9 @@ PKG_CHECK_MODULES([MPL], [moblin-panel])
 PKG_CHECK_MODULES([STATUS],
                   [dbus-glib-1                  dnl
                    clutter-x11-1.0 >= 1.0.0     dnl
-                   libmissioncontrol            dnl
+                   clutter-gtk-0.10
                    mojito-client >= 0.20.1      dnl
+                   telepathy-glib
                    nbtk-1.2])
 
 AC_ARG_ENABLE([cache],
