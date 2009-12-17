@@ -1,5 +1,7 @@
 SUBDIRS = src data po
 
+DISTCHECK_CONFIGURE_FLAGS=--disable-moblin-desktop-file
+
 dist-hook:
 	@if test -d "$(srcdir)/.git"; then \
 	  echo Generating ChangeLog ; \

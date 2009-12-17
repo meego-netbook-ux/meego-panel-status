@@ -21,7 +21,11 @@ AC_HEADER_STDC
 AM_PROG_CC_C_O
 AM_PATH_GLIB_2_0
 
-PKG_CHECK_MODULES([MPL], [moblin-panel])
+PKG_CHECK_MODULES([MPL], [moblin-panel >= 0.50.0])
+
+MOBLIN_PANELS_DIR=`$PKG_CONFIG --variable=moblin_panel_panels_dir moblin-panel`
+AC_SUBST(MOBLIN_PANELS_DIR)
+
 PKG_CHECK_MODULES([STATUS],
                   [dbus-glib-1                  dnl
                    clutter-x11-1.0 >= 1.0.0     dnl
@@ -45,6 +49,14 @@ AS_IF([test "x$enable_cache" = "xyes"],
 )
 
 AM_CONDITIONAL([ENABLE_CACHE], [test "x$enable_cache" = "xyes"])
+
+AC_ARG_ENABLE([moblin-desktop-file],
+              [AC_HELP_STRING([--disable-moblin-desktop-file],
+                              [Disable installation of moblin desktop file])],
+              [enable_mdesktop=$enableval],
+              [enable_mdesktop=yes])
+
+AM_CONDITIONAL([ENABLE_MOBLIN_DESKTOP_FILE], [test "x$enable_mdesktop" = "xyes"])
 
 AC_MSG_CHECKING([how to detect we are online])
 AC_ARG_WITH([online],
