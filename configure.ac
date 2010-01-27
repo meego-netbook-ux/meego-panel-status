@@ -32,7 +32,8 @@ PKG_CHECK_MODULES([STATUS],
                    clutter-gtk-0.10
                    mojito-client >= 0.20.1      dnl
                    telepathy-glib >= 0.9.0
-                   nbtk-1.2])
+                   nbtk-1.2
+                   mx-1.0])
 
 AC_ARG_ENABLE([cache],
               [AC_HELP_STRING([--enable-cache],
