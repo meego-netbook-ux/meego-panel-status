@@ -30,7 +30,7 @@ PKG_CHECK_MODULES([STATUS],
                   [dbus-glib-1                  dnl
                    clutter-x11-1.0 >= 1.0.0     dnl
                    clutter-gtk-0.10
-                   mojito-client >= 0.20.1      dnl
+                   libsocialweb-client >= 0.20.1      dnl
                    telepathy-glib >= 0.9.0
                    nbtk-1.2
                    mx-1.0])
