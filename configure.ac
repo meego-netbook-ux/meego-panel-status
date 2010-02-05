@@ -1,4 +1,4 @@
-m4_define([status_version], [0.1.1])
+m4_define([status_version], [0.1.2])
 
 AC_PREREQ([2.59])
 AC_INIT([moblin-panel-status], [status_version])
