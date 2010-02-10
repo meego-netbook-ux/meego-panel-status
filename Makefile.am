@@ -1,3 +1,6 @@
+
+ACLOCAL_AMFLAGS = -I m4
+
 SUBDIRS = src data po
 
 DISTCHECK_CONFIGURE_FLAGS=--disable-moblin-desktop-file
