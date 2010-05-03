@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Moblin Panel Status\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-14 09:43+0000\n"
+"POT-Creation-Date: 2010-05-03 09:20+0000\n"
 "PO-Revision-Date: 2010-04-15 13:23-0800\n"
 "Last-Translator: Margie Foster <margie@linux.intel.com>\n"
 "Language-Team: British English <margie@linux.intel.com>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: UNITED KINGDOM\n"
 
-#: ../src/moblin-panel-status.c:48
-msgid "Hello! This is the Status panel.When you have a web account configured(like Twitter) you will be able to view yourfeeds and update your status here"
-msgstr "Hello! This is the Status panel.When you have a web account configured (like Twitter) you will be able to view your feeds and update your status here."
+#: ../src/moblin-panel-status.c:100
+msgid "Status"
+msgstr "status"
 
-#: ../src/moblin-panel-status.c:157
+#: ../src/moblin-panel-status.c:158
 #: ../data/moblin-panel-status.desktop.in.in.h:2
 msgid "status"
 msgstr "status"
@@ -33,34 +33,33 @@ msgstr "status"
 msgid "Status panel"
 msgstr "Status panel"
 
+#: ../src/mps-feed-pane.c:92
+msgid "Unable to update status. The service may be unavailable or your password could be wrong."
+msgstr "Unable to update status: The service may be unavailable or your password could be wrong."
+
 #: ../src/mps-feed-pane.c:96
 msgid "Unable to update status: You're not online."
 msgstr "Unable to update status: You're not online."
 
-#: ../src/mps-feed-pane.c:444
+#: ../src/mps-feed-pane.c:463
 #, c-format
 msgid "We guessed your location as: %f %f"
 msgstr "We guessed your location as: %f %f"
 
-#: ../src/mps-feed-pane.c:448
-#, c-format
-msgid "Your location is being shared as: %f %f "
-msgstr "Your location is being shared as: %f %f "
-
-#: ../src/mps-feed-pane.c:455
+#: ../src/mps-feed-pane.c:476
 msgid "Your location is not being shared"
 msgstr "Your location is not being shared"
 
 #. Actor creation
-#: ../src/mps-feed-pane.c:551
+#: ../src/mps-feed-pane.c:579
 msgid "Update"
 msgstr "Update"
 
-#: ../src/mps-feed-pane.c:556
+#: ../src/mps-feed-pane.c:584
 msgid "What's happening?"
 msgstr "What's happening?"
 
-#: ../src/mps-feed-pane.c:606
+#: ../src/mps-feed-pane.c:634
 msgid "Change"
 msgstr "Change"
 
@@ -72,27 +71,27 @@ msgstr "Add new web service"
 msgid "You don't appear to have any web services configured or there is a problem with their configuration. Use the button above to open the My Web Accounts and set one up."
 msgstr "You don't appear to have any web services configured, or there is a problem with the configuration. Use the button above to open My Web Accounts and set one up."
 
-#: ../src/mps-geotag-pane.c:215
+#: ../src/mps-geotag-pane.c:232
 msgid "Your location"
 msgstr "Your location"
 
-#: ../src/mps-geotag-pane.c:485
+#: ../src/mps-geotag-pane.c:554
 msgid "Search"
 msgstr "Search"
 
-#: ../src/mps-geotag-pane.c:490
+#: ../src/mps-geotag-pane.c:559
 msgid "Where are you?"
 msgstr "Where are you?"
 
-#: ../src/mps-geotag-pane.c:492
+#: ../src/mps-geotag-pane.c:561
 msgid "Find me"
 msgstr "Find me"
 
-#: ../src/mps-geotag-pane.c:499
+#: ../src/mps-geotag-pane.c:568
 msgid "Use location"
 msgstr "Use location"
 
-#: ../src/mps-geotag-pane.c:500
+#: ../src/mps-geotag-pane.c:569
 msgid "Don't use location"
 msgstr "Don't use location"
 
@@ -101,18 +100,29 @@ msgstr "Don't use location"
 #. *
 #. * e.g. A couple of hours ago from Aldgate, London
 #. 
-#: ../src/mps-tweet-card.c:391
+#: ../src/mps-tweet-card.c:528
 #, c-format
 msgid "%s from %s"
 msgstr "%s from %s"
 
-#: ../src/moblin-panel-status.c:99
-msgid "Status"
-msgstr "status"
+#: ../src/moblin-panel-status.c:49
+msgid "Hello! This is the Status panel. When you have a web account configured (like Twitter), you will be able to view your feeds and update your status here."
+msgstr "Hello! This is the Status panel. When you have a web account configured (like Twitter) you will be able to view your feeds and update your status here."
 
-#: ../src/mps-feed-pane.c:92
-msgid "Unable to update status. The service may be unavailable or your password could be wrong."
-msgstr "Unable to update status: The service may be unavailable or your password could be wrong."
+#: ../src/mps-feed-pane.c:448
+#, c-format
+msgid "We guessed your location as: %s (%f, %f)"
+msgstr "We guessed your location as: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:453
+#, c-format
+msgid "Your location is being shared as: %s (%f, %f)"
+msgstr "Your location is being shared as: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:467
+#, c-format
+msgid "Your location is being shared as: %f %f"
+msgstr "Your location is being shared as: %f %f"
 
 #~ msgid "Offline"
 #~ msgstr "Offline"
