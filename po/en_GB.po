@@ -37,11 +37,6 @@ msgstr "Unable to update status: The service may be unavailable or your password
 msgid "Unable to update status: You're not online."
 msgstr "Unable to update status: You're not online."
 
-#: ../src/mps-feed-pane.c:444
-#, fuzzy
-msgid "We were unable to guess your location"
-msgstr "We guessed your location as: %f %f"
-
 #: ../src/mps-feed-pane.c:452
 #, c-format
 msgid "We guessed your location as: %s (%f, %f)"
@@ -128,6 +123,10 @@ msgstr "Hello! This is the Status panel. When you have a web account configured 
 #: ../src/moblin-panel-status.c:100
 msgid "Status"
 msgstr "Status"
+
+#: ../src/mps-feed-pane.c:444
+msgid "We were unable to guess your location"
+msgstr "We were unable to guess your location"
 
 #~ msgid "Offline"
 #~ msgstr "Offline"
