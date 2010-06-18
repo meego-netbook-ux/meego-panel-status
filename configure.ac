@@ -1,7 +1,7 @@
 m4_define([status_version], [0.2.0])
 
 AC_PREREQ([2.59])
-AC_INIT([moblin-panel-status], [status_version])
+AC_INIT([meego-panel-status], [status_version])
 
 AM_INIT_AUTOMAKE([AC_PACKAGE_NAME], [AC_PACKAGE_VERSION])
 AC_CONFIG_MACRO_DIR([m4])
@@ -21,10 +21,10 @@ AC_HEADER_STDC
 AM_PROG_CC_C_O
 AM_PATH_GLIB_2_0
 
-PKG_CHECK_MODULES([MPL], [moblin-panel >= 0.50.0])
+PKG_CHECK_MODULES([MPL], [meego-panel >= 0.50.0])
 
-MOBLIN_PANELS_DIR=`$PKG_CONFIG --variable=moblin_panel_panels_dir moblin-panel`
-AC_SUBST(MOBLIN_PANELS_DIR)
+MEEGO_PANELS_DIR=`$PKG_CONFIG --variable=meego_panel_panels_dir meego-panel`
+AC_SUBST(MEEGO_PANELS_DIR)
 
 PKG_CHECK_MODULES([STATUS],
                   [dbus-glib-1                  dnl
@@ -52,13 +52,13 @@ AS_IF([test "x$enable_cache" = "xyes"],
 
 AM_CONDITIONAL([ENABLE_CACHE], [test "x$enable_cache" = "xyes"])
 
-AC_ARG_ENABLE([moblin-desktop-file],
-              [AC_HELP_STRING([--disable-moblin-desktop-file],
-                              [Disable installation of moblin desktop file])],
+AC_ARG_ENABLE([meego-desktop-file],
+              [AC_HELP_STRING([--disable-meego-desktop-file],
+                              [Disable installation of meego desktop file])],
               [enable_mdesktop=$enableval],
               [enable_mdesktop=yes])
 
-AM_CONDITIONAL([ENABLE_MOBLIN_DESKTOP_FILE], [test "x$enable_mdesktop" = "xyes"])
+AM_CONDITIONAL([ENABLE_MEEGO_DESKTOP_FILE], [test "x$enable_mdesktop" = "xyes"])
 
 AC_MSG_CHECKING([how to detect we are online])
 AC_ARG_WITH([online],
@@ -119,7 +119,7 @@ AS_IF(
 
 
 IT_PROG_INTLTOOL([0.35.0])
-GETTEXT_PACKAGE=moblin-panel-status
+GETTEXT_PACKAGE=meego-panel-status
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],
                    ["$GETTEXT_PACKAGE"],

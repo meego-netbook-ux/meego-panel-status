@@ -3,7 +3,7 @@ ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = src data po
 
-DISTCHECK_CONFIGURE_FLAGS=--disable-moblin-desktop-file
+DISTCHECK_CONFIGURE_FLAGS=--disable-meego-desktop-file
 
 dist-hook:
 	@if test -d "$(srcdir)/.git"; then \
