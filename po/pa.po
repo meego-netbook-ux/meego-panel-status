@@ -6,169 +6,224 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-05 09:20+0000\n"
-"PO-Revision-Date: 2010-04-10 10:00+0530\n"
+"POT-Creation-Date: 2010-06-23 09:17+0000\n"
+"PO-Revision-Date: 2010-06-24 07:14+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
+"Language-Team: Punjabi/Panjabi <punjab-users@lists.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ../data/moblin-panel-myzone.desktop.in.in.h:1
-msgid "Myzone panel"
-msgstr "Myzone ਪੈਨਲ"
-
-#: ../data/myzone.desktop.in.in.h:1
-msgid "Change the Myzone background and content"
-msgstr "Myzone ਬੈਕਗਰਾਊਂਡ ਅਤੇ ਸਮੱਗਰੀ ਬਦਲੋ"
-
-#: ../data/myzone.desktop.in.in.h:2 ../capplet/myzone-cc-panel.c:169
-msgid "Myzone"
-msgstr "Myzone"
-
-#: ../data/capplet.ui.h:1
-msgid "<b>Change what is shown in your Myzone</b>"
+#: ../src/moblin-panel-status.c:49
+msgid ""
+"Hello! This is the Status panel. When you have a web account configured "
+"(like Twitter), you will be able to view your feeds and update your status "
+"here."
 msgstr ""
+"ਹੈਲੋ! ਇਹ ਹਾਲਤ ਪੈਨਲ ਹੈ। ਜਦੋਂ ਤੁਸੀਂ ਵੈੱਬ ਅਕਾਊਂਟ ਸੰਰਚਨਾ ਕਰ ਲਈ, (ਜਿਵੇਂ ਟਵਿੱਟਰ) "
+"ਤਾਂ ਤੁਸੀਂ "
+"ਆਪਣੀ ਫੀਡ ਅਤੇ ਆਪਣੀ ਹਾਲਤ ਬਾਰੇ ਅੱਪਡੇਟ ਇੱਥੇ ਵੇਖ ਸਕਦੇ ਹੋ।"
 
-#: ../data/capplet.ui.h:2
-msgid "<b>Myzone Wallpaper</b>"
+#: ../src/moblin-panel-status.c:100
+msgid "Status"
+msgstr "ਹਾਲਤ"
+
+#: ../src/moblin-panel-status.c:158
+#: ../data/moblin-panel-status.desktop.in.in.h:2
+msgid "status"
+msgstr "ਹਾਲਤ"
+
+#. vim:set ts=8 expandtab
+#: ../data/moblin-panel-status.desktop.in.in.h:1
+msgid "Status panel"
+msgstr "ਹਾਲਤ ਪੈਨਲ"
+
+#: ../src/mps-feed-pane.c:92
+msgid ""
+"Unable to update status. The service may be unavailable or your password "
+"could be wrong."
 msgstr ""
+"ਹਾਲਤ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਅਸਮਰੱਥ। ਸਰਵਿਸ ਜਾਂ ਤਾਂ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ ਜਾਂ ਤੁਹਾਡਾ ਪਾਸਵਰਡ "
+"ਗਲਤ ਹੋ "
+"ਸਕਦਾ ਹੈ।"
 
-#: ../data/capplet.ui.h:3
+#: ../src/mps-feed-pane.c:96
+msgid "Unable to update status: You're not online."
+msgstr "ਹਾਲਤ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਅਸਮਰੱਥ: ਤੁਸੀਂ ਆਨਲਾਈਨ ਨਹੀਂ ਹੋ।"
+
+#: ../src/mps-feed-pane.c:444
+msgid "We were unable to guess your location"
+msgstr "ਅਸੀਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਬਾਰੇ ਅੰਦਾਜ਼ਾ ਲਾਉਣ ਲਈ ਅਸਮਰੱਥ ਹਾਂ"
+
+#: ../src/mps-feed-pane.c:452
+#, c-format
+msgid "We guessed your location as: %s (%f, %f)"
+msgstr "ਅਸੀਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਬਾਰੇ ਅੰਦਾਜ਼ਾ ਲਾਇਆ: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:458
+#, c-format
+msgid "Your location is being shared as: %s (%f, %f)"
+msgstr "ਤੁਹਾਡਾ ਟਿਕਾਣਾ ਸਾਂਝਾ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:468
+#, c-format
+msgid "We guessed your location as: %f %f"
+msgstr "ਅਸੀਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਬਾਰੇ ਅੰਦਾਜ਼ਾ ਲਾਇਆ: %f %f"
+
+#: ../src/mps-feed-pane.c:472
+#, c-format
+msgid "Your location is being shared as: %f %f"
+msgstr "ਤੁਹਾਡਾ ਸਾਂਝਾ ਕੀਤਾ ਟਿਕਾਣਾ ਹੈ: %f %f"
+
+#: ../src/mps-feed-pane.c:482
+msgid "Your location is not being shared"
+msgstr "ਤੁਹਾਡਾ ਟਿਕਾਣਾ ਸਾਂਝਾ ਨਹੀਂ ਕੀਤਾ ਗਿਆ"
+
+#. Actor creation
+#: ../src/mps-feed-pane.c:585
+msgid "Update"
+msgstr "ਅੱਪਡੇਟ"
+
+#: ../src/mps-feed-pane.c:590
+msgid "What's happening?"
+msgstr "ਕੀ ਹੋ ਰਿਹਾ ਹੈ?"
+
+#: ../src/mps-feed-pane.c:640
+msgid "Change"
+msgstr "ਬਦਲੋ"
+
+#: ../src/mps-feed-switcher.c:350
+msgid "Add new web service"
+msgstr "ਨਵੀਂ ਵੈੱਬ ਸਰਵਿਸ ਸ਼ਾਮਲ"
+
+#: ../src/mps-feed-switcher.c:373
+msgid ""
+"You don't appear to have any web services configured or there is a problem "
+"with their configuration. Use the button above to open the My Web Accounts "
+"and set one up."
+msgstr ""
+"ਤੁਹਾਡੇ ਕੋਲ ਹਾਲੇ ਕੋਈ ਵੈੱਬ ਸਰਵਿਸ ਸੰਰਚਿਤ ਨਹੀਂ ਜਾਪਦੀ ਹੈ ਜਾਂ ਇਸ ਦੀ ਸੰਰਚਨਾ 'ਚ "
+"ਕੋਈ ਸਮੱਸਿਆ ਹੈ। "
+"ਮੇਰੇ ਵੈੱਬ ਅਕਾਊਂਟ ਖੋਲ੍ਹਣ ਤੇ ਸੈਟਅੱਪ ਕਰਨ ਲਈ ਉੱਤੇ ਦਿੱਤਾ ਬਟਨ ਵਰਤੋਂ।"
+
+#: ../src/mps-geotag-pane.c:232
+msgid "Your location"
+msgstr "ਤੁਹਾਡਾ ਟਿਕਾਣਾ"
+
+#: ../src/mps-geotag-pane.c:568
+msgid "Search"
+msgstr "ਖੋਜ"
+
+#: ../src/mps-geotag-pane.c:573
+msgid "Where are you?"
+msgstr "ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ?"
+
+#: ../src/mps-geotag-pane.c:575
+msgid "Find me"
+msgstr "ਮੈਨੂੰ ਲੱਭੋ"
+
+#: ../src/mps-geotag-pane.c:582
+msgid "Use location"
+msgstr "ਟਿਕਾਣਾ ਵਰਤੋਂ"
+
+#: ../src/mps-geotag-pane.c:583
+msgid "Don't use location"
+msgstr "ਟਿਕਾਣਾ ਨਾ ਵਰਤੋਂ"
+
+#. When the tweet has a location associated with it then this string will
+#. * be <human readable time> from <human readable place name>
+#. *
+#. * e.g. A couple of hours ago from Aldgate, London
+#.
+#: ../src/mps-tweet-card.c:528
+#, c-format
+msgid "%s from %s"
+msgstr "%s %s ਤੋਂ"
+
+#~ msgid "Myzone panel"
+#~ msgstr "Myzone ਪੈਨਲ"
+
+#~ msgid "Change the Myzone background and content"
+#~ msgstr "Myzone ਬੈਕਗਰਾਊਂਡ ਅਤੇ ਸਮੱਗਰੀ ਬਦਲੋ"
+
+#~ msgid "Myzone"
+#~ msgstr "Myzone"
+
 #, fuzzy
-msgid "Calendar and tasks:"
-msgstr "ਨਵੀਂ ਟਾਸਕ ਬਣਾਓ"
+#~ msgid "Calendar and tasks:"
+#~ msgstr "ਨਵੀਂ ਟਾਸਕ ਬਣਾਓ"
 
-#: ../data/capplet.ui.h:4
-msgid "Change My Web Accounts"
-msgstr ""
+#~ msgid "GConf error: %s"
+#~ msgstr "GConf ਗਲਤੀ: %s"
 
-#: ../data/capplet.ui.h:5
-msgid "Choose your wallpaper"
-msgstr ""
+#~ msgid "All further errors shown only on terminal."
+#~ msgstr "ਸਭ ਹੋਰ ਗਲਤੀਆਂ ਕੇਵਲ ਟਰਮੀਨਲ ਉੱਤੇ ਹੀ ਵੇਖਾਓ।"
 
-#: ../data/capplet.ui.h:6
-msgid "Clear recent documents"
-msgstr ""
+#~ msgid "Show as much web service content as possible"
+#~ msgstr "ਜਿੰਨੀ ਵੀ ਸੰਭਵ ਹੋਵੇ ਵੈੱਬ ਸਰਵਿਸ ਸਮਗੱਰੀ ਵੇਖਾਓ"
 
-#: ../data/capplet.ui.h:7
-msgid "Email alerts:"
-msgstr ""
+#~ msgid "Show mostly web service content"
+#~ msgstr "ਵੱਧ ਤੋਂ ਵੱਧ ਵੈੱਬ ਸਰਵਿਸ ਸਮੱਗਰੀ ਵੇਖੋ"
 
-#: ../data/capplet.ui.h:8
-msgid "Reset to default"
-msgstr ""
+#~ msgid "Show half and half"
+#~ msgstr "ਅੱਧਾ ਤੇ ਅੱਧਾ ਵੇਖੋ"
 
-#: ../capplet/gconf-bridge.c:1232
-#, c-format
-msgid "GConf error: %s"
-msgstr "GConf ਗਲਤੀ: %s"
+#~ msgid "Show mostly recent files"
+#~ msgstr "ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਫਾਇਲਾਂ ਵੇਖੋ"
 
-#: ../capplet/gconf-bridge.c:1237
-msgid "All further errors shown only on terminal."
-msgstr "ਸਭ ਹੋਰ ਗਲਤੀਆਂ ਕੇਵਲ ਟਰਮੀਨਲ ਉੱਤੇ ਹੀ ਵੇਖਾਓ।"
+#~ msgid "Show as many recent files as possible"
+#~ msgstr "ਜਿੰਨੀਆਂ ਵੀ ਸੰਭਵ ਹੋਵੇ ਤਾਜ਼ੀਆਂ ਫਾਇਲਾਂ ਵੇਖੋ"
 
-#: ../capplet/myzone-cc-panel.c:47
-msgid "Show as much web service content as possible"
-msgstr "ਜਿੰਨੀ ਵੀ ਸੰਭਵ ਹੋਵੇ ਵੈੱਬ ਸਰਵਿਸ ਸਮਗੱਰੀ ਵੇਖਾਓ"
+#~ msgid "Appointments"
+#~ msgstr "ਮੁਲਾਕਾਤ"
 
-#: ../capplet/myzone-cc-panel.c:49
-msgid "Show mostly web service content"
-msgstr "ਵੱਧ ਤੋਂ ਵੱਧ ਵੈੱਬ ਸਰਵਿਸ ਸਮੱਗਰੀ ਵੇਖੋ"
+#~ msgid "Tasks"
+#~ msgstr "ਕੰਮ"
 
-#: ../capplet/myzone-cc-panel.c:51
-msgid "Show half and half"
-msgstr "ਅੱਧਾ ਤੇ ਅੱਧਾ ਵੇਖੋ"
+#~ msgid "Create an appointment"
+#~ msgstr "ਨਵੀਂ ਮੁਲਾਕਾਤ ਬਣਾਓ"
 
-#: ../capplet/myzone-cc-panel.c:53
-msgid "Show mostly recent files"
-msgstr "ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਫਾਇਲਾਂ ਵੇਖੋ"
+#~ msgid "Add"
+#~ msgstr "ਸ਼ਾਮਲ"
 
-#: ../capplet/myzone-cc-panel.c:55
-msgid "Show as many recent files as possible"
-msgstr "ਜਿੰਨੀਆਂ ਵੀ ਸੰਭਵ ਹੋਵੇ ਤਾਜ਼ੀਆਂ ਫਾਇਲਾਂ ਵੇਖੋ"
+#~ msgid "No calendar entries this week"
+#~ msgstr "ਇਹ ਹਫ਼ਤੇ ਲਈ ਕੋਈ ਕੈਲੰਡਰ ਐਂਟਰੀ ਨਹੀਂ"
 
-#: ../capplet/myzone-cc-panel.c:77
-msgid ""
-"Do you want to clear your recent documents? This will remove the local "
-"content from the Myzone"
-msgstr ""
+#~ msgid "Web page"
+#~ msgstr "ਵੈੱਬ ਪੇਜ਼"
 
-#: ../penge/penge-calendar-pane.c:484
-msgid "Appointments"
-msgstr "ਮੁਲਾਕਾਤ"
+#~ msgid "Create a new task"
+#~ msgstr "ਨਵੀਂ ਟਾਸਕ ਬਣਾਓ"
 
-#: ../penge/penge-calendar-pane.c:496 ../penge/penge-calendar-pane.c:539
-msgid "Open"
-msgstr ""
+#~ msgid "Nothing to do today"
+#~ msgstr "ਅੱਜ ਲਈ ਕੁਝ ਨਹੀਂ ਹੈ"
 
-#: ../penge/penge-calendar-pane.c:527
-msgid "Tasks"
-msgstr "ਕੰਮ"
+#~ msgid "Due %x"
+#~ msgstr "%x ਨੂੰ ਚਾਹੀਦਾ"
 
-#: ../penge/penge-events-pane.c:71
-msgid "Create an appointment"
-msgstr "ਨਵੀਂ ਮੁਲਾਕਾਤ ਬਣਾਓ"
+#~ msgid "Play intro video"
+#~ msgstr "ਜਾਣਕਾਰੀ ਵਿਡੀਓ ਚਲਾਓ"
 
-#: ../penge/penge-events-pane.c:72 ../penge/penge-tasks-pane.c:53
-msgid "Add"
-msgstr "ਸ਼ਾਮਲ"
+#~ msgid "Welcome to MeeGo"
+#~ msgstr "ਮੀਗੋ ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ"
 
-#: ../penge/penge-events-pane.c:402
-msgid "No calendar entries this week"
-msgstr "ਇਹ ਹਫ਼ਤੇ ਲਈ ਕੋਈ ਕੈਲੰਡਰ ਐਂਟਰੀ ਨਹੀਂ"
+#~ msgid ""
+#~ "This is the Myzone, where your recently used files and content from your "
+#~ "web feeds will appear."
+#~ msgstr ""
+#~ "ਇਹ Myzone ਹੈ, ਜਿੱਥੇ ਤੁਹਾਡੇ ਵਲੋਂ ਤਾਜ਼ਾ ਵਰਤੀਆਂ ਫਾਇਲਾਂ ਅਤੇ ਤੁਹਾਡੀ ਵੈੱਬ ਫੀਡ ਦੀ ਸਮੱਗਰੀ ਵੇਖਾਈ "
+#~ "ਦੇਵੇਗੀ।"
 
-#: ../penge/penge-recent-file-tile.c:217
-msgid "Web page"
-msgstr "ਵੈੱਬ ਪੇਜ਼"
+#~ msgid "No unread messages"
+#~ msgstr "ਕੋਈ ਨਾ-ਪੜ੍ਹਿਆ ਸੁਨੇਹਾ ਨਹੀਂ"
 
-#: ../penge/penge-tasks-pane.c:52
-msgid "Create a new task"
-msgstr "ਨਵੀਂ ਟਾਸਕ ਬਣਾਓ"
+#~ msgid "Unread message"
+#~ msgstr "ਨਾ-ਪੜ੍ਹਿਆ ਸੁਨੇਹਾ"
 
-#: ../penge/penge-tasks-pane.c:430
-msgid "Nothing to do today"
-msgstr "ਅੱਜ ਲਈ ਕੁਝ ਨਹੀਂ ਹੈ"
-
-#: ../penge/penge-task-tile.c:319
-#, c-format
-msgid "Due %x"
-msgstr "%x ਨੂੰ ਚਾਹੀਦਾ"
-
-#: ../penge/penge-welcome-tile.c:33
-msgid "Play intro video"
-msgstr "ਜਾਣਕਾਰੀ ਵਿਡੀਓ ਚਲਾਓ"
-
-#: ../penge/penge-welcome-tile.c:65
-msgid "Welcome to MeeGo"
-msgstr "ਮੀਗੋ ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ"
-
-#: ../penge/penge-welcome-tile.c:84
-msgid ""
-"This is the Myzone, where your recently used files and content from your web "
-"feeds will appear."
-msgstr ""
-"ਇਹ Myzone ਹੈ, ਜਿੱਥੇ ਤੁਹਾਡੇ ਵਲੋਂ ਤਾਜ਼ਾ ਵਰਤੀਆਂ ਫਾਇਲਾਂ ਅਤੇ ਤੁਹਾਡੀ ਵੈੱਬ ਫੀਡ ਦੀ ਸਮੱਗਰੀ ਵੇਖਾਈ ਦੇਵੇਗੀ।"
-
-#: ../penge/penge-welcome-tile.c:27
-msgid ""
-"When you’ve set up your web accounts and used some files they will appear "
-"here on the Myzone for easy access whenever you want. "
-msgstr ""
-
-#: ../penge/penge-email-pane.c:192
-msgid "No unread messages"
-msgstr "ਕੋਈ ਨਾ-ਪੜ੍ਹਿਆ ਸੁਨੇਹਾ ਨਹੀਂ"
-
-#: ../penge/penge-email-pane.c:194
-msgid "Unread message"
-msgstr "ਨਾ-ਪੜ੍ਹਿਆ ਸੁਨੇਹਾ"
-
-#: ../penge/penge-email-pane.c:196
-msgid "Unread messages"
-msgstr "ਨਾ-ਪੜ੍ਹੇ ਸੁਨੇਹੇ"
+#~ msgid "Unread messages"
+#~ msgstr "ਨਾ-ਪੜ੍ਹੇ ਸੁਨੇਹੇ"
 
 #~ msgid ""
 #~ "Things that your friends do online will appear here. Activate your "
