@@ -129,6 +129,7 @@ AM_GLIB_GNU_GETTEXT
 AC_OUTPUT([
         Makefile
         src/Makefile
+        src/meego-panel-status.pc
         data/Makefile
         data/theme/Makefile
         po/Makefile.in
