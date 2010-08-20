@@ -30,7 +30,7 @@ PKG_CHECK_MODULES([STATUS],
                   [dbus-glib-1                  dnl
                    clutter-x11-1.0 >= 1.0.0     dnl
                    clutter-gtk-0.10
-                   libsocialweb-client >= 0.20.1      dnl
+                   libsocialweb-client >= 0.25.3      dnl
                    mx-1.0 >= 0.9.0
                    champlain-0.4
                    geoclue
