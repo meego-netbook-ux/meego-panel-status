@@ -126,6 +126,9 @@ AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],
                    [Gettext domain name])
 AM_GLIB_GNU_GETTEXT
 
+servicesdir='${libdir}'/meego-panel-status/services
+AC_SUBST(servicesdir)
+
 AC_OUTPUT([
         Makefile
         src/Makefile
