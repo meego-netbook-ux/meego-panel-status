@@ -3,93 +3,161 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-19 09:29+0000\n"
+"POT-Creation-Date: 2010-08-27 22:28+0000\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Ceyhun Alyesil <ceyhunalyesil@gmail.com>\n"
+"Last-Translator: Aranel Surion <aranel@aranelsurion.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/mnb-im-status-row.c:103 ../src/mnb-im-status-row.c:104
-#: ../src/mnb-im-status-row.c:742
-msgid "Offline"
-msgstr "Çevrimdışı"
+#: ../src/moblin-panel-status.c:49
+msgid "Hello! This is the Status panel. When you have a web account configured (like Twitter), you will be able to view your feeds and update your status here."
+msgstr "Merhaba! Bu, durum panelidir. Bir web hesabı oluşturduğunuzda (Twitter gibi), buradan takibini yapabilir ve durumunuzu güncelleyebilirsiniz."
 
-#: ../src/mnb-im-status-row.c:105 ../src/moblin-panel-status.c:536
-msgid "Available"
-msgstr "Çevrimiçi"
+#: ../src/moblin-panel-status.c:100
+msgid "Status"
+msgstr "Durum"
 
-#: ../src/mnb-im-status-row.c:106 ../src/mnb-im-status-row.c:107
-#: ../src/moblin-panel-status.c:540 ../src/moblin-panel-status.c:544
-msgid "Away"
-msgstr "Uzakta"
+#: ../src/moblin-panel-status.c:158
+#: ../data/moblin-panel-status.desktop.in.in.h:2
+msgid "status"
+msgstr "durum"
 
-#: ../src/mnb-im-status-row.c:108 ../src/mnb-im-status-row.c:109
-#: ../src/moblin-panel-status.c:548 ../src/moblin-panel-status.c:552
-msgid "Busy"
-msgstr "Meşgul"
+#. vim:set ts=8 expandtab
+#: ../data/moblin-panel-status.desktop.in.in.h:1
+msgid "Status panel"
+msgstr "Durum paneli"
 
-#: ../src/mnb-im-status-row.c:132
-msgid "Close"
-msgstr "Kapat"
+#: ../src/mps-feed-pane.c:92
+msgid "Unable to update status. The service may be unavailable or your password could be wrong."
+msgstr "Durum güncellenemiyor. Servise ulaşılamıyor veya parolanız yanlış olabilir."
 
-#: ../src/mnb-im-status-row.c:141 ../src/mnb-im-status-row.c:760
+#: ../src/mps-feed-pane.c:96
+msgid "Unable to update status: You're not online."
+msgstr "Durum güncellenemiyor: Çevrimiçi değilsiniz."
+
+#: ../src/mps-feed-pane.c:444
+msgid "We were unable to guess your location"
+msgstr "Konumunuzu tahmin edemiyoruz"
+
+#: ../src/mps-feed-pane.c:452
+#, c-format
+msgid "We guessed your location as: %s (%f, %f)"
+msgstr "Konumunuzu şu şekilde tahmin ettik: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:458
+#, c-format
+msgid "Your location is being shared as: %s (%f, %f)"
+msgstr "Konumunuz şu şekilde paylaşılıyor: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:468
+#, c-format
+msgid "We guessed your location as: %f %f"
+msgstr "Konumunuzu şu şekilde tahmin ettik: %f %f"
+
+#: ../src/mps-feed-pane.c:472
+#, c-format
+msgid "Your location is being shared as: %f %f"
+msgstr "Konumunuz şu şekilde paylaşılıyor: %f %f"
+
+#: ../src/mps-feed-pane.c:482
+msgid "Your location is not being shared"
+msgstr "Konumunuz paylaşılmıyor"
+
+#. Actor creation
+#: ../src/mps-feed-pane.c:585
+msgid "Update"
+msgstr "Güncelle"
+
+#: ../src/mps-feed-pane.c:590
+msgid "What's happening?"
+msgstr "Neler oluyor?"
+
+#: ../src/mps-feed-pane.c:640
 msgid "Change"
 msgstr "Değiştir"
 
-#: ../src/mnb-im-status-row.c:745
-msgid "Unknown account"
-msgstr "Bilinmeyen hesap"
+#: ../src/mps-feed-switcher.c:350
+msgid "Add new web service"
+msgstr "Yeni web servisi ekle"
 
-#: ../src/mnb-web-status-entry.c:88 ../src/mnb-web-status-entry.c:641
-#: ../src/mnb-web-status-entry.c:722
-msgid "Edit"
-msgstr "Düzenle"
+#: ../src/mps-feed-switcher.c:373
+msgid "You don't appear to have any web services configured or there is a problem with their configuration. Use the button above to open the My Web Accounts and set one up."
+msgstr "Hiç web servisi ayarlamamışsınız veya ayarlarında bir sorun var. Yukarıdaki butonu kullanarak Web Hesaplarım'ı açın ve bir hesap oluşturun."
 
-#. Translators: %s is the user visible name of the service
-#: ../src/mnb-web-status-entry.c:515
+#: ../src/mps-geotag-pane.c:232
+msgid "Your location"
+msgstr "Konumunuz"
+
+#: ../src/mps-geotag-pane.c:568
+msgid "Search"
+msgstr "Ara"
+
+#: ../src/mps-geotag-pane.c:573
+msgid "Where are you?"
+msgstr "Neredesin?"
+
+#: ../src/mps-geotag-pane.c:575
+msgid "Find me"
+msgstr "Beni bul"
+
+#: ../src/mps-geotag-pane.c:582
+msgid "Use location"
+msgstr "Konum kullan"
+
+#: ../src/mps-geotag-pane.c:583
+msgid "Don't use location"
+msgstr "Konum kullanma"
+
+#. When the tweet has a location associated with it then this string will
+#. * be <human readable time> from <human readable place name>
+#. *
+#. * e.g. A couple of hours ago from Aldgate, London
+#.
+#: ../src/mps-tweet-card.c:528
 #, c-format
-msgid "Enter your %s status here..."
-msgstr "%s durmunuzu buraya girin..."
+msgid "%s from %s"
+msgstr "%s önce %s"
 
-#: ../src/mnb-web-status-entry.c:519 ../src/mnb-web-status-entry.c:592
-msgid "Enter your current status here..."
-msgstr "Şuan ki durumunuzu buraya girin..."
+#~ msgid "Offline"
+#~ msgstr "Çevrimdışı"
+#~ msgid "Available"
+#~ msgstr "Çevrimiçi"
+#~ msgid "Away"
+#~ msgstr "Uzakta"
+#~ msgid "Busy"
+#~ msgstr "Meşgul"
+#~ msgid "Close"
+#~ msgstr "Kapat"
+#~ msgid "Unknown account"
+#~ msgstr "Bilinmeyen hesap"
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
+#~ msgid "Enter your %s status here..."
+#~ msgstr "%s durmunuzu buraya girin..."
+#~ msgid "Enter your current status here..."
+#~ msgstr "Şuan ki durumunuzu buraya girin..."
+#~ msgid "Post"
+#~ msgstr "Posta"
+#~ msgid "Your current status"
+#~ msgstr "Şuan ki durumunuz"
+#~ msgid "Your current status - you are offline"
+#~ msgstr "Şuan ki durumnuz - çevrimdışısınız"
+#~ msgid ""
+#~ "Sorry, we can't find any people. Have you set up a Messenger account?"
+#~ msgstr "Üzgününüz, kimseyi bulamadık. Messenger hesabınızı ayarladınız mı?"
+#~ msgid ""
+#~ "To update your web status you need to setup a Web Services account with a "
+#~ "provider that supports status messages"
+#~ msgstr ""
+#~ "Durumunuzu güncellemek için bir web servis hesabına sahip olmalı ve "
+#~ "durummesajlarını destekleyen bir hizmet sağlayıcıya sahip olmalısınız"
+#~ msgid ""
+#~ "To update your IM status you need to setup an Instant Messaging account"
+#~ msgstr "Durumunuzu güncelleyebilmek için ani mesajlaşma hesabınız olmalı"
 
-#: ../src/mnb-web-status-entry.c:701
-msgid "Post"
-msgstr "Posta"
-
-#: ../src/moblin-panel-status.c:470
-msgid "Your current status"
-msgstr "Şuan ki durumunuz"
-
-#: ../src/moblin-panel-status.c:472 ../src/moblin-panel-status.c:960
-msgid "Your current status - you are offline"
-msgstr "Şuan ki durumnuz - çevrimdışısınız"
-
-#: ../src/moblin-panel-status.c:825
-msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
-msgstr "Üzgününüz, kimseyi bulamadık. Messenger hesabınızı ayarladınız mı?"
-
-#: ../src/moblin-panel-status.c:994
-msgid ""
-"To update your web status you need to setup a Web Services account with a "
-"provider that supports status messages"
-msgstr ""
-"Durumunuzu güncellemek için bir web servis hesabına sahip olmalı ve durum"
-"mesajlarını destekleyen bir hizmet sağlayıcıya sahip olmalısınız"
-
-#: ../src/moblin-panel-status.c:1021
-msgid "To update your IM status you need to setup an Instant Messaging account"
-msgstr "Durumunuzu güncelleyebilmek için ani mesajlaşma hesabınız olmalı"
-
-#: ../src/moblin-panel-status.c:1118
-msgid "status"
-msgstr "durum"
