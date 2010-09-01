@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../src/moblin-panel-status.c:49
 msgid "Hello! This is the Status panel. When you have a web account configured (like Twitter), you will be able to view your feeds and update your status here."
-msgstr "Merhaba! Bu, durum panelidir. Bir web hesabı oluşturduğunuzda (Twitter gibi), buradan takibini yapabilir ve durumunuzu güncelleyebilirsiniz."
+msgstr "Merhaba! Bu, Durum panelidir. Bir web hesabı oluşturduğunuzda (Twitter gibi), buradan takibini yapabilir ve durumunuzu güncelleyebilirsiniz."
 
 #: ../src/moblin-panel-status.c:100
 msgid "Status"
@@ -118,7 +118,7 @@ msgstr "Konum kullanma"
 #. * be <human readable time> from <human readable place name>
 #. *
 #. * e.g. A couple of hours ago from Aldgate, London
-#.
+#. 
 #: ../src/mps-tweet-card.c:528
 #, c-format
 msgid "%s from %s"
@@ -126,38 +126,45 @@ msgstr "%s önce %s"
 
 #~ msgid "Offline"
 #~ msgstr "Çevrimdışı"
+
 #~ msgid "Available"
 #~ msgstr "Çevrimiçi"
+
 #~ msgid "Away"
 #~ msgstr "Uzakta"
+
 #~ msgid "Busy"
 #~ msgstr "Meşgul"
+
 #~ msgid "Close"
 #~ msgstr "Kapat"
+
 #~ msgid "Unknown account"
 #~ msgstr "Bilinmeyen hesap"
+
 #~ msgid "Edit"
 #~ msgstr "Düzenle"
+
 #~ msgid "Enter your %s status here..."
 #~ msgstr "%s durmunuzu buraya girin..."
+
 #~ msgid "Enter your current status here..."
 #~ msgstr "Şuan ki durumunuzu buraya girin..."
+
 #~ msgid "Post"
 #~ msgstr "Posta"
+
 #~ msgid "Your current status"
 #~ msgstr "Şuan ki durumunuz"
+
 #~ msgid "Your current status - you are offline"
 #~ msgstr "Şuan ki durumnuz - çevrimdışısınız"
-#~ msgid ""
-#~ "Sorry, we can't find any people. Have you set up a Messenger account?"
-#~ msgstr "Üzgününüz, kimseyi bulamadık. Messenger hesabınızı ayarladınız mı?"
-#~ msgid ""
-#~ "To update your web status you need to setup a Web Services account with a "
-#~ "provider that supports status messages"
-#~ msgstr ""
-#~ "Durumunuzu güncellemek için bir web servis hesabına sahip olmalı ve "
-#~ "durummesajlarını destekleyen bir hizmet sağlayıcıya sahip olmalısınız"
-#~ msgid ""
-#~ "To update your IM status you need to setup an Instant Messaging account"
-#~ msgstr "Durumunuzu güncelleyebilmek için ani mesajlaşma hesabınız olmalı"
 
+#~ msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
+#~ msgstr "Üzgününüz, kimseyi bulamadık. Messenger hesabınızı ayarladınız mı?"
+
+#~ msgid "To update your web status you need to setup a Web Services account with a provider that supports status messages"
+#~ msgstr "Durumunuzu güncellemek için bir web servis hesabına sahip olmalı ve durummesajlarını destekleyen bir hizmet sağlayıcıya sahip olmalısınız"
+
+#~ msgid "To update your IM status you need to setup an Instant Messaging account"
+#~ msgstr "Durumunuzu güncelleyebilmek için ani mesajlaşma hesabınız olmalı"
