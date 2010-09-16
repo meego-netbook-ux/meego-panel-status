@@ -16,8 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../src/moblin-panel-status.c:49
+#, fuzzy
 msgid "Hello! This is the Status panel. When you have a web account configured (like Twitter), you will be able to view your feeds and update your status here."
-msgstr ""
+msgstr "Udvözöljük! Ez az állapot/státusz panel. Ha van egy internetes számlája beállítva (mint Twitter), akkor meg tudja nézni a hírcsatornáit és frissítheti állapotát/státuszát."
 
 #: ../src/moblin-panel-status.c:100
 #, fuzzy
@@ -37,31 +38,34 @@ msgid "Status panel"
 msgstr "Allapot/Státusz panel"
 
 #: ../src/mps-feed-pane.c:92
+#, fuzzy
 msgid "Unable to update status. The service may be unavailable or your password could be wrong."
-msgstr ""
+msgstr "Nem lehet frissíteni állapotát. A szolgáltatás nem elérhető, vagy lehet, hogy a jelszó nem megfelelő."
 
 #: ../src/mps-feed-pane.c:96
+#, fuzzy
 msgid "Unable to update status: You're not online."
-msgstr ""
+msgstr "Nem lehet frissíteni állapotát/státuszát: On nincs online."
 
 #: ../src/mps-feed-pane.c:444
+#, fuzzy
 msgid "We were unable to guess your location"
-msgstr ""
+msgstr "Nem tudtuk megbecsülni a helyét"
 
 #: ../src/mps-feed-pane.c:452
-#, c-format
+#, c-format, fuzzy
 msgid "We guessed your location as: %s (%f, %f)"
-msgstr ""
+msgstr "Megbecsültük helyét, mint: %s (%f, %f)"
 
 #: ../src/mps-feed-pane.c:458
-#, c-format
+#, c-format, fuzzy
 msgid "Your location is being shared as: %s (%f, %f)"
-msgstr ""
+msgstr "Az Ön helye meg van osztva, mint: %s (%f, %f)"
 
 #: ../src/mps-feed-pane.c:468
-#, c-format
+#, c-format, fuzzy
 msgid "We guessed your location as: %f %f"
-msgstr ""
+msgstr "Megbecsültük helyét, mint: %f %f"
 
 #: ../src/mps-feed-pane.c:472
 #, c-format, fuzzy
@@ -115,16 +119,19 @@ msgid "Where are you?"
 msgstr "Hol van?"
 
 #: ../src/mps-geotag-pane.c:575
+#, fuzzy
 msgid "Find me"
-msgstr ""
+msgstr "Keressen meg"
 
 #: ../src/mps-geotag-pane.c:582
+#, fuzzy
 msgid "Use location"
-msgstr ""
+msgstr "Használja a helyet"
 
 #: ../src/mps-geotag-pane.c:583
+#, fuzzy
 msgid "Don't use location"
-msgstr ""
+msgstr "Ne használja a helyet"
 
 #. When the tweet has a location associated with it then this string will
 #. * be <human readable time> from <human readable place name>
