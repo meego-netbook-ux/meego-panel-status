@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-01 18:00+0000\n"
+"PO-Revision-Date: 2010-10-02 20:00+000\n"
+"Last-Translator: Torgeir I. Hjelmfoss <tih@inbox.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/moblin-panel-status.c:49
+msgid ""
+"Hello! This is the Status panel. When you have a web account configured "
+"(like Twitter), you will be able to view your feeds and update your status "
+"here."
+msgstr "Hei! Dette er Statuspanelet. Når du har konfigurert en webkonto "
+"(f.eks. Twitter), kan du se dine feeds og oppdatere din status her."
+
+#: ../src/moblin-panel-status.c:100
+msgid "Status"
+msgstr "Status"
+
+#: ../src/moblin-panel-status.c:158
+#: ../data/moblin-panel-status.desktop.in.in.h:2
+msgid "status"
+msgstr "status"
+
+#. vim:set ts=8 expandtab
+#: ../data/moblin-panel-status.desktop.in.in.h:1
+msgid "Status panel"
+msgstr "Statuspanel"
+
+#: ../src/mps-feed-pane.c:92
+msgid ""
+"Unable to update status. The service may be unavailable or your password "
+"could be wrong."
+msgstr ""
+"Kan ikke oppdatere status. Tjenesten kan være utilgjengelig eller "
+"passordet kan være feil"
+
+#: ../src/mps-feed-pane.c:96
+msgid "Unable to update status: You're not online."
+msgstr "Kan ikke oppdatere status: Du er ikke online."
+
+#: ../src/mps-feed-pane.c:444
+msgid "We were unable to guess your location"
+msgstr "Vi kunne ikke gjette din lokasjon"
+
+#: ../src/mps-feed-pane.c:452
+#, c-format
+msgid "We guessed your location as: %s (%f, %f)"
+msgstr "Vi gjettet din lokasjon som: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:458
+#, c-format
+msgid "Your location is being shared as: %s (%f, %f)"
+msgstr "Din lokasjon blir delt som: %s (%f, %f)"
+
+#: ../src/mps-feed-pane.c:468
+#, c-format
+msgid "We guessed your location as: %f %f"
+msgstr "Vi gjettet din lokasjon som: %f %f"
+
+#: ../src/mps-feed-pane.c:472
+#, c-format
+msgid "Your location is being shared as: %f %f"
+msgstr "Din lokasjon blir delt som: %f %f"
+
+#: ../src/mps-feed-pane.c:482
+msgid "Your location is not being shared"
+msgstr "Din lokasjon blir ikke delt"
+
+#. Actor creation
+#: ../src/mps-feed-pane.c:585
+msgid "Update"
+msgstr "Oppdater"
+
+#: ../src/mps-feed-pane.c:590
+msgid "What's happening?"
+msgstr "Hva skjer"
+
+#: ../src/mps-feed-pane.c:640
+msgid "Change"
+msgstr "Endre"
+
+#: ../src/mps-feed-switcher.c:350
+msgid "Add new web service"
+msgstr "Legg til ny webtjeneste"
+
+#: ../src/mps-feed-switcher.c:373
+msgid ""
+"You don't appear to have any web services configured or there is a problem "
+"with their configuration. Use the button above to open the My Web Accounts "
+"and set one up."
+msgstr ""
+"Det ser ikke ut som du har noen webtjenester konfigurert eller så er det et "
+"konfigurasjonsproblem. Bruk knappen ovenfor for å åpne Mine webkontoer og "
+"konfigurer en tjeneste."
+
+
+#: ../src/mps-geotag-pane.c:232
+msgid "Your location"
+msgstr "Din lokasjon"
+
+#: ../src/mps-geotag-pane.c:568
+msgid "Search"
+msgstr "Søk"
+
+#: ../src/mps-geotag-pane.c:573
+msgid "Where are you?"
+msgstr "Hvor er du?"
+
+#: ../src/mps-geotag-pane.c:575
+msgid "Find me"
+msgstr "Finn meg"
+
+#: ../src/mps-geotag-pane.c:582
+msgid "Use location"
+msgstr "Bruk lokasjon"
+
+#: ../src/mps-geotag-pane.c:583
+msgid "Don't use location"
+msgstr "Ikke bruk lokasjon"
+
+#. When the tweet has a location associated with it then this string will
+#. * be <human readable time> from <human readable place name>
+#. *
+#. * e.g. A couple of hours ago from Aldgate, London
+#.
+#: ../src/mps-tweet-card.c:528
+#, c-format
+msgid "%s from %s"
+msgstr "%s fra %s"
