@@ -32,7 +32,7 @@ PKG_CHECK_MODULES([STATUS],
                    clutter-gtk-0.10
                    libsocialweb-client >= 0.25.3      dnl
                    mx-1.0 >= 0.9.0
-                   champlain-0.4
+                   champlain-0.8
                    geoclue
                    gconf-2.0])
 
