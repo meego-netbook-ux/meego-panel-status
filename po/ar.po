@@ -21,7 +21,6 @@ msgid "Hello! This is the Status panel. When you have a web account configured (
 msgstr "مرحباً! هذا شريط الحالة. اذا كان لديك حساب ويب مفعل (تويتر مثلاً), ستتمكن من رؤية التحديثات وتحديث حالتك من هنا."
 
 #: ../src/moblin-panel-status.c:100
-#, fuzzy
 msgid "Status"
 msgstr "الحالة"
 
