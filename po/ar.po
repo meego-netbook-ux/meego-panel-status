@@ -90,7 +90,7 @@ msgstr "أضف خدمة ويب جديدة"
 
 #: ../src/mps-feed-switcher.c:373
 msgid "You don't appear to have any web services configured or there is a problem with their configuration. Use the button above to open the My Web Accounts and set one up."
-msgstr ""
+msgstr "لا يبدو أنك أضفت اي حسابات ويب أو هناك مشكلة في إعدادهم. استخدم الزر أعلاه لتفتح حسابات الويب وقم بإعداد واحد."
 
 #: ../src/mps-geotag-pane.c:232
 msgid "Your location"
@@ -114,7 +114,7 @@ msgstr "استخدم الموقع"
 
 #: ../src/mps-geotag-pane.c:583
 msgid "Don't use location"
-msgstr ""
+msgstr "لا تستخدم الموقع"
 
 #. When the tweet has a location associated with it then this string will
 #. * be <human readable time> from <human readable place name>
@@ -124,7 +124,7 @@ msgstr ""
 #: ../src/mps-tweet-card.c:528
 #, c-format
 msgid "%s from %s"
-msgstr ""
+msgstr "%s من %s"
 
 #~ msgid "Offline"
 #~ msgstr "غير متصل"
