@@ -1,4 +1,4 @@
-m4_define([status_version], [0.3.3])
+m4_define([status_version], [0.3.4])
 
 AC_PREREQ([2.59])
 AC_INIT([meego-panel-status], [status_version])
