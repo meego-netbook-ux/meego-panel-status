@@ -1,0 +1,7 @@
+[main]
+host = https://meego.transifex.net
+
+[meego-panel-status.meego-panel_status]
+file_filter = po/<lang>.po
+source_lang = en
+source_file = po/meego-panel-status.pot
