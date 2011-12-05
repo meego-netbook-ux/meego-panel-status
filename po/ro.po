@@ -1,104 +1,133 @@
-# Romanian translations for moblin-panel-status package.
-# Copyright (C) 2009 The moblin-panel-status copyright holder
-# This file is distributed under the same license as the moblin-panel-status package.
-# Cosmin Bordeianu <elloxar@gmail.com>, 2009.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: moblin-panel-status\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-24 09:30+0000\n"
-"PO-Revision-Date: 2009-09-14 14:09+0200\n"
-"Last-Translator: Cosmin Bordeianu <elloxar@gmail.com>\n"
-"Language-Team: Moblin Romania <live@moblin.ro>\n"
+"Project-Id-Version: meego-panel-status\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2010-11-30 11:13+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Romanian (http://www.transifex.net/projects/p/meego/team/ro/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Romanian\n"
-"X-Poedit-Country: ROMANIA\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
 
-#: ../src/mnb-im-status-row.c:103
-#: ../src/mnb-im-status-row.c:104
-#: ../src/mnb-im-status-row.c:742
-msgid "Offline"
-msgstr "Neconectat"
+#: ../src/meego-panel-status.c:95
+msgid "Status"
+msgstr ""
 
-#: ../src/mnb-im-status-row.c:105
-#: ../src/moblin-panel-status.c:536
-msgid "Available"
-msgstr "Disponibil"
+#: ../src/meego-panel-status.c:153
+#: ../data/meego-panel-status.desktop.in.in.h:2
+msgid "status"
+msgstr "status"
 
-#: ../src/mnb-im-status-row.c:106
-#: ../src/mnb-im-status-row.c:107
-#: ../src/moblin-panel-status.c:540
-#: ../src/moblin-panel-status.c:544
-msgid "Away"
-msgstr "Indisponibil"
+#. vim:set ts=8 expandtab
+#: ../data/meego-panel-status.desktop.in.in.h:1
+msgid "Status panel"
+msgstr ""
 
-#: ../src/mnb-im-status-row.c:108
-#: ../src/mnb-im-status-row.c:109
-#: ../src/moblin-panel-status.c:548
-#: ../src/moblin-panel-status.c:552
-msgid "Busy"
-msgstr "Ocupat"
+#: ../src/mps-feed-pane.c:92
+msgid ""
+"Unable to update status. The service may be unavailable or your password "
+"could be wrong."
+msgstr ""
 
-#: ../src/mnb-im-status-row.c:132
-msgid "Close"
-msgstr "Închide"
+#: ../src/mps-feed-pane.c:96
+msgid "Unable to update status: You're not online."
+msgstr ""
 
-#: ../src/mnb-im-status-row.c:141
-#: ../src/mnb-im-status-row.c:760
+#: ../src/mps-feed-pane.c:445
+msgid "We were unable to guess your location"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:453
+#, c-format
+msgid "We think your location is: %s (%f, %f)"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:459
+#, c-format
+msgid "Your location is currently shared as: %s (%f, %f)"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:469
+#, c-format
+msgid "We think your location is: %f %f"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:473
+#, c-format
+msgid "Your location is currently shared as: %f %f"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:483
+msgid "Your location isn't currently shared"
+msgstr ""
+
+#. Actor creation
+#: ../src/mps-feed-pane.c:586
+msgid "Update"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:591
+msgid "What's happening?"
+msgstr ""
+
+#: ../src/mps-feed-pane.c:641
 msgid "Change"
 msgstr "Schimbă"
 
-#: ../src/mnb-im-status-row.c:745
-msgid "Unknown account"
-msgstr "Cont necunoscut"
+#: ../src/mps-feed-switcher.c:35
+msgid ""
+"When you have a web account configured, you will be able to view your feeds "
+"and manage your status here."
+msgstr ""
 
-#: ../src/mnb-web-status-entry.c:88
-#: ../src/mnb-web-status-entry.c:641
-#: ../src/mnb-web-status-entry.c:722
-msgid "Edit"
-msgstr "Modifică"
+#: ../src/mps-feed-switcher.c:509 ../src/mps-feed-switcher.c:554
+msgid "Add new web account"
+msgstr ""
 
-#. Translators: %s is the user visible name of the service
-#: ../src/mnb-web-status-entry.c:515
+#: ../src/mps-feed-switcher.c:539
+msgid "This is the Status panel."
+msgstr ""
+
+#: ../src/mps-geotag-pane.c:232
+msgid "Your location"
+msgstr ""
+
+#: ../src/mps-geotag-pane.c:568
+msgid "Search"
+msgstr ""
+
+#: ../src/mps-geotag-pane.c:573
+msgid "Where are you?"
+msgstr ""
+
+#: ../src/mps-geotag-pane.c:575
+msgid "Find me"
+msgstr ""
+
+#: ../src/mps-geotag-pane.c:582
+msgid "Use location"
+msgstr ""
+
+#: ../src/mps-geotag-pane.c:583
+msgid "Don't use location"
+msgstr ""
+
+#. When the tweet has a location associated with it then this string will
+#. * be <human readable time> from <human readable place name>
+#. *
+#. * e.g. A couple of hours ago from Aldgate, London
+#. 
+#: ../src/mps-tweet-card.c:491
 #, c-format
-msgid "Enter your %s status here..."
-msgstr "Introduceți status-ul %s aici..."
+msgid "%s from %s"
+msgstr ""
 
-#: ../src/mnb-web-status-entry.c:519
-#: ../src/mnb-web-status-entry.c:592
-msgid "Enter your current status here..."
-msgstr "Introduceți status-ul aici..."
-
-#: ../src/mnb-web-status-entry.c:701
-msgid "Post"
-msgstr "Postează"
-
-#: ../src/moblin-panel-status.c:470
-msgid "Your current status"
-msgstr "Status curent"
-
-#: ../src/moblin-panel-status.c:472
-#: ../src/moblin-panel-status.c:960
-msgid "Your current status - you are offline"
-msgstr "Status curent - neconectat"
-
-#: ../src/moblin-panel-status.c:825
-msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
-msgstr "Ne pare rău, nu am găsit nici o persoană. V-aţi configurat un cont de Messenger?"
-
-#: ../src/moblin-panel-status.c:994
-msgid "To update your web status you need to setup a Web Services account with a provider that supports status messages"
-msgstr "Pentru a actualiza status-ul pe internet aveţi nevoie să configurați un Serviciu Web cu un furnizor care acceptă un astfel de serviciu"
-
-#: ../src/moblin-panel-status.c:1021
-msgid "To update your IM status you need to setup an Instant Messaging account"
-msgstr "Pentru a actualiza status-ul de chat aveţi nevoie să configurați un cont pentru acesta"
-
-#: ../src/moblin-panel-status.c:1118
-msgid "status"
-msgstr "status"
 

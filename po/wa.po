@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Meego (Moblin 2.x)\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-03 00:04+0000\n"
-"PO-Revision-Date: 2010-04-09 07:11+0100\n"
-"Last-Translator: Jean Cayron <jean.cayron@gmail.com>\n"
+"Project-Id-Version: meego-panel-status\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2010-11-30 11:13+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: Walloon\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: wa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../src/meego-panel-status.c:95
 msgid "Status"
@@ -33,8 +32,12 @@ msgid "Status panel"
 msgstr "Sicriftôr des statuts"
 
 #: ../src/mps-feed-pane.c:92
-msgid "Unable to update status. The service may be unavailable or your password could be wrong."
-msgstr "Dji n' sai mete a djoû l' sitatut. Li siervice est motoit nén disponibe oudonbén vosse sicret est kecfeye mwais."
+msgid ""
+"Unable to update status. The service may be unavailable or your password "
+"could be wrong."
+msgstr ""
+"Dji n' sai mete a djoû l' sitatut. Li siervice est motoit nén disponibe "
+"oudonbén vosse sicret est kecfeye mwais."
 
 #: ../src/mps-feed-pane.c:96
 msgid "Unable to update status: You're not online."
@@ -82,8 +85,12 @@ msgid "Change"
 msgstr "Candjî"
 
 #: ../src/mps-feed-switcher.c:35
-msgid "When you have a web account configured, you will be able to view your feeds and manage your status here."
-msgstr "Cwand vs åroz on conte sol waibe d' apontyî, vos såroz vey cial vos floûs eyet mete a djoû vos statuts."
+msgid ""
+"When you have a web account configured, you will be able to view your feeds "
+"and manage your status here."
+msgstr ""
+"Cwand vs åroz on conte sol waibe d' apontyî, vos såroz vey cial vos floûs "
+"eyet mete a djoû vos statuts."
 
 #: ../src/mps-feed-switcher.c:509 ../src/mps-feed-switcher.c:554
 msgid "Add new web account"
@@ -122,10 +129,9 @@ msgstr "Èn n' nén eployî d' plaece"
 #. *
 #. * e.g. A couple of hours ago from Aldgate, London
 #. 
-#: ../src/mps-tweet-card.c:528
+#: ../src/mps-tweet-card.c:491
 #, c-format
 msgid "%s from %s"
 msgstr "%s di %s"
 
-#~ msgid "You don't appear to have any web services configured or there is a problem with their configuration. Use the button above to open the My Web Accounts and set one up."
-#~ msgstr "I m' shonne ki vs n' avoz nou siervice waibe d' apontyî ou k' i gn a on problinme avou leu-z apontiaedje. Siervoz vs do boton chal pa dzeu po drovi \"Mes contes waibes\" eyet nd apontyî onk."
+

@@ -3,122 +3,127 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Margie Foster <margie@linux.intel.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: meego-panel-status\n"
 "Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
 "POT-Creation-Date: 2011-11-04 12:46+0000\n"
-"PO-Revision-Date: 2010-11-30 11:13+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Lao (http://www.transifex.net/projects/p/meego/team/lo/)\n"
+"PO-Revision-Date: 2011-11-30 20:30+0000\n"
+"Last-Translator: margie <margie@linux.intel.com>\n"
+"Language-Team: English (United States) (http://www.transifex.net/projects/p/meego/team/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lo\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/meego-panel-status.c:95
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ../src/meego-panel-status.c:153
 #: ../data/meego-panel-status.desktop.in.in.h:2
 msgid "status"
-msgstr ""
+msgstr "status"
 
 #. vim:set ts=8 expandtab
 #: ../data/meego-panel-status.desktop.in.in.h:1
 msgid "Status panel"
-msgstr ""
+msgstr "Status panel"
 
 #: ../src/mps-feed-pane.c:92
 msgid ""
 "Unable to update status. The service may be unavailable or your password "
 "could be wrong."
 msgstr ""
+"Unable to update status. The service may be unavailable or your password "
+"could be wrong."
 
 #: ../src/mps-feed-pane.c:96
 msgid "Unable to update status: You're not online."
-msgstr ""
+msgstr "Unable to update status: You're not online."
 
 #: ../src/mps-feed-pane.c:445
 msgid "We were unable to guess your location"
-msgstr ""
+msgstr "We were unable to guess your location"
 
 #: ../src/mps-feed-pane.c:453
 #, c-format
 msgid "We think your location is: %s (%f, %f)"
-msgstr ""
+msgstr "We think your location is: %s (%f, %f)"
 
 #: ../src/mps-feed-pane.c:459
 #, c-format
 msgid "Your location is currently shared as: %s (%f, %f)"
-msgstr ""
+msgstr "Your location is currently shared as: %s (%f, %f)"
 
 #: ../src/mps-feed-pane.c:469
 #, c-format
 msgid "We think your location is: %f %f"
-msgstr ""
+msgstr "We think your location is: %f %f"
 
 #: ../src/mps-feed-pane.c:473
 #, c-format
 msgid "Your location is currently shared as: %f %f"
-msgstr ""
+msgstr "Your location is currently shared as: %f %f"
 
 #: ../src/mps-feed-pane.c:483
 msgid "Your location isn't currently shared"
-msgstr ""
+msgstr "Your location isn't currently shared"
 
 #. Actor creation
 #: ../src/mps-feed-pane.c:586
 msgid "Update"
-msgstr "ປັບປູງ"
+msgstr "Update"
 
 #: ../src/mps-feed-pane.c:591
 msgid "What's happening?"
-msgstr "ກໍາລັງເປັນຫຍັງ?"
+msgstr "What's happening?"
 
 #: ../src/mps-feed-pane.c:641
 msgid "Change"
-msgstr "ປ່ຽນ"
+msgstr "Change"
 
 #: ../src/mps-feed-switcher.c:35
 msgid ""
 "When you have a web account configured, you will be able to view your feeds "
 "and manage your status here."
 msgstr ""
+"When you have a web account configured, you will be able to view your feeds "
+"and manage your status here."
 
 #: ../src/mps-feed-switcher.c:509 ../src/mps-feed-switcher.c:554
 msgid "Add new web account"
-msgstr "ເພີ້ມເວບບັນຊີໃຫມ່"
+msgstr "Add new web account"
 
 #: ../src/mps-feed-switcher.c:539
 msgid "This is the Status panel."
-msgstr ""
+msgstr "This is the Status panel."
 
 #: ../src/mps-geotag-pane.c:232
 msgid "Your location"
-msgstr "ສະຖານທີ່ຂອງເຈົ້າ"
+msgstr "Your location"
 
 #: ../src/mps-geotag-pane.c:568
 msgid "Search"
-msgstr "ຊອກຫາ"
+msgstr "Search"
 
 #: ../src/mps-geotag-pane.c:573
 msgid "Where are you?"
-msgstr "ເຈົ້າຢູ່ໃສ?"
+msgstr "Where are you?"
 
 #: ../src/mps-geotag-pane.c:575
 msgid "Find me"
-msgstr "ຊອກຫາຂ້ອຍ"
+msgstr "Find me"
 
 #: ../src/mps-geotag-pane.c:582
 msgid "Use location"
-msgstr "ໃຊ້ສະຖານທີ່"
+msgstr "Use location"
 
 #: ../src/mps-geotag-pane.c:583
 msgid "Don't use location"
-msgstr "ບໍ່ໃຊ້ສະຖານທີ່"
+msgstr "Don't use location"
 
 #. When the tweet has a location associated with it then this string will
 #. * be <human readable time> from <human readable place name>
@@ -128,6 +133,6 @@ msgstr "ບໍ່ໃຊ້ສະຖານທີ່"
 #: ../src/mps-tweet-card.c:491
 #, c-format
 msgid "%s from %s"
-msgstr "%s ຈາກ %s"
+msgstr "%s from %s"
 
 

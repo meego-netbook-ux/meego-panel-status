@@ -1,23 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Margie Foster <margie@linux.intel.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: Moblin Panel Status\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-19 16:36+0000\n"
-"PO-Revision-Date: 2010-10-20 10:16-0800\n"
-"Last-Translator: Margie Foster <margie@linux.intel.com>\n"
-"Language-Team: British English <margie@linux.intel.com>\n"
+"Project-Id-Version: meego-panel-status\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2011-03-22 15:26+0000\n"
+"Last-Translator: margie <margie@linux.intel.com>\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.net/projects/p/meego/team/en_GB/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: UNITED KINGDOM\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/meego-panel-status.c:95
 msgid "Status"
@@ -34,8 +33,12 @@ msgid "Status panel"
 msgstr "Status panel"
 
 #: ../src/mps-feed-pane.c:92
-msgid "Unable to update status. The service may be unavailable or your password could be wrong."
-msgstr "Unable to update status: The service may be unavailable or your password could be wrong."
+msgid ""
+"Unable to update status. The service may be unavailable or your password "
+"could be wrong."
+msgstr ""
+"Unable to update status: The service may be unavailable or your password "
+"could be wrong."
 
 #: ../src/mps-feed-pane.c:96
 msgid "Unable to update status: You're not online."
@@ -57,8 +60,8 @@ msgstr "Your location is currently shared as: %s (%f, %f)"
 
 #: ../src/mps-feed-pane.c:469
 #, c-format
-msgid "We think your locations is: %f %f"
-msgstr "We think your locations is: %f %f"
+msgid "We think your location is: %f %f"
+msgstr "We think your location is: %f %f"
 
 #: ../src/mps-feed-pane.c:473
 #, c-format
@@ -83,11 +86,14 @@ msgid "Change"
 msgstr "Change"
 
 #: ../src/mps-feed-switcher.c:35
-msgid "When you have a web account configured, you will be able to view your feeds and manage your status here."
-msgstr "When you have a web account configured, you will be able to view your feeds and manage your status here."
+msgid ""
+"When you have a web account configured, you will be able to view your feeds "
+"and manage your status here."
+msgstr ""
+"When you have a web account configured, you will be able to view your feeds "
+"and manage your status here."
 
-#: ../src/mps-feed-switcher.c:509
-#: ../src/mps-feed-switcher.c:554
+#: ../src/mps-feed-switcher.c:509 ../src/mps-feed-switcher.c:554
 msgid "Add new web account"
 msgstr "Add new web account"
 
@@ -123,70 +129,10 @@ msgstr "Don't use location"
 #. * be <human readable time> from <human readable place name>
 #. *
 #. * e.g. A couple of hours ago from Aldgate, London
-#.
-#: ../src/mps-tweet-card.c:528
+#. 
+#: ../src/mps-tweet-card.c:491
 #, c-format
 msgid "%s from %s"
 msgstr "%s from %s"
 
-#~ msgid ""
-#~ "You don't appear to have any web services configured or there is a "
-#~ "problem with their configuration. Use the button above to open the My Web "
-#~ "Accounts and set one up."
-#~ msgstr ""
-#~ "You don't appear to have any web services configured, or there is a "
-#~ "problem with the configuration. Use the button above to open My Web "
-#~ "Accounts and set one up."
 
-#~ msgid "Offline"
-#~ msgstr "Offline"
-
-#~ msgid "Available"
-#~ msgstr "Available"
-
-#~ msgid "Away"
-#~ msgstr "Away"
-
-#~ msgid "Busy"
-#~ msgstr "Busy"
-
-#~ msgid "Close"
-#~ msgstr "Close"
-
-#~ msgid "Unknown account"
-#~ msgstr "Unknown account"
-
-#~ msgid "Edit"
-#~ msgstr "Edit"
-
-#~ msgid "Enter your %s status here..."
-#~ msgstr "Enter your %s status here..."
-
-#~ msgid "Enter your current status here..."
-#~ msgstr "Enter your current status here..."
-
-#~ msgid "Post"
-#~ msgstr "Post"
-
-#~ msgid "Your current status"
-#~ msgstr "Your current status"
-
-#~ msgid "Your current status - you are offline"
-#~ msgstr "Your current status - you are offline"
-
-#~ msgid ""
-#~ "Sorry, we can't find any people. Have you set up a Messenger account?"
-#~ msgstr ""
-#~ "Sorry, we can't find any people. Have you set up a Messenger account?"
-
-#~ msgid ""
-#~ "To update your web status you need to setup a Web Services account with a "
-#~ "provider that supports status messages"
-#~ msgstr ""
-#~ "To update your web status, you need to set up a Web Services account with "
-#~ "a provider that supports status messages."
-
-#~ msgid ""
-#~ "To update your IM status you need to setup an Instant Messaging account"
-#~ msgstr ""
-#~ "To update your IM status, you need to set up an Instant Messaging account."
